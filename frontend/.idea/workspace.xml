@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="732ea9ba-a25c-406e-9522-ef1c5fc49f35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/react-loadable-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/article/[slug].js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/article/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/video/[slug].js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/video/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/amp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/article/[slug].js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/article/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/next/dist/pages/_error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/video/[slug].js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/video/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/react-refresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/development/_ssgManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/096fd7fc45a9cf85e6c0.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/1eb8d044aeb30a98b2b1.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/27ba8fc4e99108a9a59f.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/2a1f6e283d1f47600839.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/2ed1af30261e96c69e77.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/39c3e2770594111ce579.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/3cb992cb84b1a9f57c3b.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/40e215f72a7a10a03c97.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/4d70c607d61efb6991e8.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/4e20f172a18e603a71d2.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/58c369410a3ec586afb2.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/6d1de047e69bb2c0542a.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/6feb09ea20468b402b93.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/70f8d07f9b896e244712.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/7cf099a2e2bed2f9ac6f.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/7d59c77e6d63bcbd2252.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/9152baf0e6db29307c8d.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/9af2125924027c02a2f2.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/9bcf5ffe1ae428f90f9a.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/a03878a8e0204603b387.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/aea6e9ceb61307e49de1.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/afa3557eeb23c5478925.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/b7e4afbf0be8c4c31e84.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/bac8d705e86f89c12844.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/c7e749df3a02c263e779.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/cba904ad7792ca2fd6f1.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/cca37363e9e0e3fe8ff0.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/cfacd540cd66a93fd02d.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/d6107b1720d66a2f7847.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/db37549c53ebb1648460.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/ec425e36af651ab4f4fc.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/f3068815e5d79fa645c8.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/f3718372329da20b685d.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/fa7c18b0012b6c6f6d82.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/fc68a1e4d1430a2505e0.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/_app.27ba8fc4e99108a9a59f.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/_app.2a1f6e283d1f47600839.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/_app.6d1de047e69bb2c0542a.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/_app.7d59c77e6d63bcbd2252.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/_app.9bcf5ffe1ae428f90f9a.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/_app.cfacd540cd66a93fd02d.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/_app.f3068815e5d79fa645c8.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/_app.fc68a1e4d1430a2505e0.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/[slug].27ba8fc4e99108a9a59f.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/[slug].2a1f6e283d1f47600839.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/[slug].6d1de047e69bb2c0542a.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/[slug].7d59c77e6d63bcbd2252.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/[slug].9bcf5ffe1ae428f90f9a.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/[slug].cfacd540cd66a93fd02d.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/[slug].f3068815e5d79fa645c8.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/[slug].fc68a1e4d1430a2505e0.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.1eb8d044aeb30a98b2b1.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.27ba8fc4e99108a9a59f.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.2a1f6e283d1f47600839.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.2ed1af30261e96c69e77.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.4e20f172a18e603a71d2.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.58c369410a3ec586afb2.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.6d1de047e69bb2c0542a.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.6feb09ea20468b402b93.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.70f8d07f9b896e244712.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.7d59c77e6d63bcbd2252.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.9152baf0e6db29307c8d.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.9bcf5ffe1ae428f90f9a.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.a03878a8e0204603b387.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.aea6e9ceb61307e49de1.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.afa3557eeb23c5478925.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.cba904ad7792ca2fd6f1.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.cca37363e9e0e3fe8ff0.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.cfacd540cd66a93fd02d.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.db37549c53ebb1648460.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.f3068815e5d79fa645c8.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/pages/video/all.fc68a1e4d1430a2505e0.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/VideosCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/VideosCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/media.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/media.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ampproject/toolbox-optimizer/.cache/2ff5577010acefeceb6bfdeab769b276.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@ampproject/toolbox-optimizer/.cache/2ff5577010acefeceb6bfdeab769b276.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ampproject/toolbox-optimizer/.cache/97dd8567b7e4775960c2064e20d6d08f.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@ampproject/toolbox-optimizer/.cache/97dd8567b7e4775960c2064e20d6d08f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ampproject/toolbox-optimizer/.cache/ce771c73bb46ffc173fa1a5df1e91804.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/build-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/build-info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.production.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.profiling.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.profiling.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-unstable_mock.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-unstable_mock.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler.development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler.production.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-tracing.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-tracing.development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-tracing.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-tracing.production.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-tracing.profiling.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-tracing.profiling.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-unstable_mock.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-unstable_mock.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler.development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler.production.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler.profiling.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler.profiling.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/unstable_mock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/App2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/article/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/article/[slug].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/article/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/article/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/category/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/category/[slug].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/video/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/video/[slug].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/video/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/video/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1oOuZ7fOURN46YRSyDYFOAW3DH0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="$PROJECT_DIR$/../../Program Files/nodejs/node" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="yarn run develop" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="develop" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="develop" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.develop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="732ea9ba-a25c-406e-9522-ef1c5fc49f35" name="Default Changelist" comment="" />
+      <created>1613170013557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613170013557</updated>
+      <workItem from="1613170014857" duration="241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
