@@ -6,9 +6,18 @@ import Image from "../../components/image";
 import Seo from "../../components/seo";
 import { getStrapiMedia } from "../../lib/media";
 
-  
-
-const Video = ({article, articles, categories, homepage, global, landingpage, writers, vidcat, videos, video}) => {
+const Video = ({
+  article,
+  articles,
+  categories,
+  homepage,
+  global,
+  landingpage,
+  writers,
+  vidcat,
+  videos,
+  video,
+}) => {
   const imageUrl = getStrapiMedia(video.VideoThumbnail);
   const seo = {
     metaTitle: video.title,
@@ -18,26 +27,27 @@ const Video = ({article, articles, categories, homepage, global, landingpage, wr
   };
 
   return (
-    <Layout categories={categories} vidcat={vidcat} >
+    <Layout categories={categories} vidcat={vidcat}>
       <Seo seo={seo} />
       <div
         id="banner"
         className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-padding uk-margin articalimg"
         data-src={imageUrl}
         data-srcset={imageUrl}
-        data-uk-img        
-      >
-        
-      </div>
-       {/* <Image className="img uk-light uk-padding uk-height-medium" data-src={imageUrl}></Image> */}
+        data-uk-img
+      ></div>
+      {/* <Image className="img uk-light uk-padding uk-height-medium" data-src={imageUrl}></Image> */}
       <h1 className="Title">{video.Title}</h1>
       <hr></hr>
       <div className="uk-section">
         <div className="uk-container uk-container-small">
           <ReactMarkdown source={video.HTMLVideo} escapeHtml={false} />
-          
+
           <hr className="uk-divider-small" />
-          <div className="uk-grid-small uk-flex-left writercard" data-uk-grid="true">
+          <div
+            className="uk-grid-small uk-flex-left writercard"
+            data-uk-grid="true"
+          >
             <div>
               {video.writer.picture && (
                 <Image
@@ -46,23 +56,24 @@ const Video = ({article, articles, categories, homepage, global, landingpage, wr
                     position: "static",
                     borderRadius: "25%",
                     height: "auto",
-                    width: "25%"
+                    width: "25%",
                   }}
                 />
               )}
             </div>
             <div className="uk-width-expand">
               <p className="uk-margin-remove-bottom">
-                Author:  {video.writer.name}
-            
+                Author: {video.writer.name}
               </p>
               <p className="uk-text-meta uk-margin-remove-top">
                 <Moment format="MMM Do YYYY">{video.published_at}</Moment>
               </p>
             </div>
-
           </div>
-          <div className="uk-grid-small uk-flex-left writercard" data-uk-grid="true">
+          <div
+            className="uk-grid-small uk-flex-left writercard"
+            data-uk-grid="true"
+          >
             <div>
               {video.editor.Photo && (
                 <Image
@@ -71,17 +82,15 @@ const Video = ({article, articles, categories, homepage, global, landingpage, wr
                     position: "static",
                     borderRadius: "25%",
                     height: "auto",
-                    width: "25%"
+                    width: "25%",
                   }}
                 />
               )}
             </div>
             <div className="uk-width-expand">
               <p className="uk-margin-remove-bottom">
-              Editor: {video.editor.Name}
-            
+                Editor: {video.editor.Name}
               </p>
-             
             </div>
           </div>
         </div>
@@ -104,12 +113,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const videos = await fetchAPI(
-    `/videos?slug=${params.slug}&status=published`);
+  const videos = await fetchAPI(`/videos?slug=${params.slug}&status=published`);
   const categories = await fetchAPI("/categories");
-    const vidcat = await fetchAPI("/vid-catagories");
+  const vidcat = await fetchAPI("/vid-catagories");
   return {
-    props: { video: videos [0], categories, vidcat,},
+    props: { video: videos[0], categories, vidcat },
     revalidate: 1,
   };
 }

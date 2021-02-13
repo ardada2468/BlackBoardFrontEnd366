@@ -3,10 +3,9 @@ import FooterPage from "./FooterBar";
 
 const Layout = ({ children, categories, seo, vidcat }) => (
   <>
-    <Nav categories={ categories} VidCatogories={vidcat} />
+    <Nav categories={categories} VidCatogories={vidcat} />
     {children}
     <FooterPage></FooterPage>
-    
   </>
 );
 

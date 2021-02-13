@@ -2,8 +2,8 @@ import Articles from "../../components/articles";
 import { fetchAPI } from "../../lib/api";
 import Layout from "../../components/layout";
 import Seo from "../../components/seo";
-import Vidoes from "../../components/Videos"
-const Category = ({category, categories, vidcat, articalCat }) => {
+import Vidoes from "../../components/Videos";
+const Category = ({ category, categories, vidcat, articalCat }) => {
   const seo = {
     metaTitle: category.Name,
     metaDescription: `All ${category.Name} videos`,
@@ -15,7 +15,7 @@ const Category = ({category, categories, vidcat, articalCat }) => {
       <div className="uk-section">
         <div className="uk-container uk-container-large">
           <h1 className="Title">{category.Name}</h1>
-            {<Vidoes vidoes={category.videos}></Vidoes>}
+          {<Vidoes vidoes={category.videos}></Vidoes>}
           {/* <Articles articles={category.articles} /> */}
         </div>
       </div>

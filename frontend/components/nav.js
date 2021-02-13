@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Navbar from "react-bootstrap/Navbar";
-import SearchBar from "material-ui-search-bar";
 
 const Nav = ({ categories, VidCatogories }) => {
   return (
@@ -78,14 +77,10 @@ const Nav = ({ categories, VidCatogories }) => {
             </li>
           </ul>
         </div>
-        <div className="uk-navbar-right NavBar">
-          <SearchBar
-            value={"Search"}
-            // onChange={(newValue) => this.setState({ value: newValue })}
-            // onRequestSearch={() => doSomethingWith(this.state.value)}
-          />
+        {/* <div className="uk-navbar-right NavBar">
+        
 
-        </div>
+        </div> */}
       </nav>
     </div>
   );

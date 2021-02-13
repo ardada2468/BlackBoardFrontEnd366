@@ -2,11 +2,11 @@ import Articles from "../../components/articles";
 import { fetchAPI } from "../../lib/api";
 import Layout from "../../components/layout";
 import Seo from "../../components/seo";
-import Zoom from 'react-reveal/Zoom';
-import Reveal from 'react-reveal/Reveal';
-import Slide from 'react-reveal/Slide';
+import Zoom from "react-reveal/Zoom";
+import Reveal from "react-reveal/Reveal";
+import Slide from "react-reveal/Slide";
 
-const Category = ({category, categories, vidcat }) => {
+const Category = ({ category, categories, vidcat }) => {
   const seo = {
     metaTitle: category.name,
     metaDescription: `All ${category.name} articles`,
@@ -17,11 +17,11 @@ const Category = ({category, categories, vidcat }) => {
       <Seo seo={seo} />
       <div className="uk-section">
         <div className="uk-container uk-container-large">
-        <Zoom left cascade  duration={550}>
-          <h1 className="Title">{category.name}</h1>
+          <Zoom left cascade duration={550}>
+            <h1 className="Title">{category.name}</h1>
           </Zoom>
           <Zoom left>
-          <Articles articles={category.articles} />
+            <Articles articles={category.articles} />
           </Zoom>
         </div>
       </div>

@@ -4,20 +4,14 @@ import "../assets/css/style.css";
 import { createContext } from "react";
 import { getStrapiMedia } from "../lib/media";
 import { fetchAPI } from "../lib/api";
-import Articals from "./index"  
-import ReactDOM from 'react-dom';
-import {
-  BrowserRouter as Router,
-  Route
-} from 'react-router-dom';
+import Articals from "./index";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 // Store Strapi Global object in context
 export const GlobalContext = createContext({});
 
 const MyApp = ({ Component, pageProps }) => {
   const { global } = pageProps;
-  
-  
-
 
   return (
     <>
@@ -38,17 +32,13 @@ const MyApp = ({ Component, pageProps }) => {
       <GlobalContext.Provider value={global}>
         <Component {...pageProps} />
       </GlobalContext.Provider>
-
-      
     </>
   );
-  
 };
-
 
 // class App2 extends Component {
 //   render() {
-//     return (      
+//     return (
 //        <BrowserRouter>
 //         <div>
 //           <Navigation />
@@ -58,7 +48,7 @@ const MyApp = ({ Component, pageProps }) => {
 //              {/* <Route path="/contact" component={Contact}/> */}
 //             {/* <Route component={Error}/> */}
 //            </Switch>
-//         </div> 
+//         </div>
 //       </BrowserRouter>
 //     );
 //   }

@@ -1,6 +1,7 @@
 export function getStrapiURL(path = "") {
   return `${
-    process.env.NEXT_PUBLIC_STRAPI_API_URL || "https://bb-backend-app.uk.r.appspot.com"
+    process.env.NEXT_PUBLIC_STRAPI_API_URL ||
+    "https://bb-backend-app.uk.r.appspot.com"
   }${path}`;
 }
 
