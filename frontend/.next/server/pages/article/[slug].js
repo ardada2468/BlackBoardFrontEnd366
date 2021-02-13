@@ -970,7 +970,7 @@ const Article = ({
     className: "uk-width-expand"
   }, __jsx("p", {
     className: "uk-margin-remove-bottom"
-  }, "Author:  ", article.writer.name), __jsx("p", {
+  }, "Author: ", article.writer.name), __jsx("p", {
     className: "uk-text-meta uk-margin-remove-top"
   }, __jsx(react_moment__WEBPACK_IMPORTED_MODULE_2___default.a, {
     format: "MMM Do YYYY"
