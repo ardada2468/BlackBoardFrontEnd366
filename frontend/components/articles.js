@@ -19,7 +19,7 @@ const Articles = ({ articles }) => {
               <Card
                 article={article}
                 className="Title"
-                key={`${article.slug}`}
+                keyc={`${article.slug}`}
               />
             );
           })}

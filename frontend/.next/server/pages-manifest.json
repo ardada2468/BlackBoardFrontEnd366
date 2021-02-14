@@ -1,5 +1,6 @@
 {
   "/_app": "pages/_app.js",
+  "/aboutus/aboutus": "pages/aboutus/aboutus.js",
   "/article/[slug]": "pages/article/[slug].js",
   "/article/all": "pages/article/all.js",
   "/category/[slug]": "pages/category/[slug].js",

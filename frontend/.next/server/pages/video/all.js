@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 8);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -505,14 +505,6 @@ function formatUrl(urlObj) {
 
 /***/ }),
 
-/***/ 7:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("OWbV");
-
-
-/***/ }),
-
 /***/ "7aRM":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -538,6 +530,14 @@ const Image = ({
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Image);
+
+/***/ }),
+
+/***/ 8:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("OWbV");
+
 
 /***/ }),
 
@@ -753,7 +753,9 @@ const Nav = ({
     }, __jsx("a", {
       className: "blacktext"
     }, vidcatagory.Name)));
-  }))))))));
+  })))), __jsx("li", null, __jsx(link_default.a, {
+    href: "/aboutus/aboutus"
+  }, __jsx("a", null, "about us")))))));
 };
 
 /* harmony default export */ var nav = (Nav);
@@ -822,7 +824,7 @@ const Articles = ({
     return __jsx(_card__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
       article: article,
       className: "Title",
-      key: `${article.slug}`
+      keyc: `${article.slug}`
     });
   })), __jsx("div", null, __jsx("div", {
     className: "uk-child-width-1-2@m uk-grid-match",

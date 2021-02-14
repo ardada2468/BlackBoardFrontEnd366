@@ -9,7 +9,6 @@
     "start": "next start",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
-    
   },
   "dependencies": {
     "animate.css": "^4.1.1",

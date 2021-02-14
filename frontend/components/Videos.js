@@ -14,7 +14,7 @@ const Vidoes = ({ vidoes }) => {
             class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin Card"
             uk-grid
           >
-            <VidCard video={video} key={`${video.slug}`} />
+            <VidCard video={video} key={`${video.slug}`} /> 
           </div>
         );
       })}

@@ -75,6 +75,11 @@ const Nav = ({ categories, VidCatogories }) => {
                 </ul>
               </div>
             </li>
+            <li>
+              <Link href="/aboutus/aboutus">
+                <a>about us</a>
+              </Link>
+            </li>
           </ul>
         </div>
         {/* <div className="uk-navbar-right NavBar">

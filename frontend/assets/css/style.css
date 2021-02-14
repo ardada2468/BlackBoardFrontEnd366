@@ -187,6 +187,7 @@ img{
       align-self: center;
       border-bottom-right-radius: 45;
       border-bottom-left-radius: 45;
+      font-weight: 700;
 
 }
 
@@ -398,7 +399,7 @@ img.birthday {
 }
 
 .MasterContainer{
-  background-image: linear-gradient(180deg, rgb(70, 72, 168), rgb(206, 210, 255));
+  /* background-image: linear-gradient(180deg, rgb(70, 72, 168), rgb(206, 210, 255)); */
   /* background-image: linear-gradient(180deg, #000066, #6699FF); */
 }
 .col-4,
@@ -524,3 +525,34 @@ text-align: center;
   width: 30%;
   height: 10px;
 }
+
+.AboutUsCard{
+  padding: 1.25%;
+  max-width: 350px;
+  /* background-color: blanchedalmond; */
+  border-radius: 50px;
+  margin: 2%;
+  transform-origin: bottom;  
+  box-shadow: 0 10px 10px rgba(0,0,0,0.15);
+
+
+}
+
+.AboutUsCard:hover {
+  /* background-color:azure; */
+  box-shadow: 0 20px 20px rgba(0,0,0,0.15);
+  /* border-radius: 75px; */
+  transition: box-shadow 0.45s ease-in-out;
+
+  
+}
+
+.AboutUsCard:active{
+
+  background-color: #cecece;
+  box-shadow: none;
+  transition: box-shadow 0.6s ease-in-out;
+  transition: background-color  0.3s ease-in-out;
+
+}
+
