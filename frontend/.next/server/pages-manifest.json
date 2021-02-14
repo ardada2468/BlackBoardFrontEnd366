@@ -1,7 +1,12 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
   "/article/[slug]": "pages/article/[slug].js",
-  "/article/all": "pages/article/all.js"
+  "/article/all": "pages/article/all.js",
+  "/category/[slug]": "pages/category/[slug].js",
+  "/": "pages/index.js",
+  "/vidcategory/[slug]": "pages/vidcategory/[slug].js",
+  "/video/[slug]": "pages/video/[slug].js",
+  "/video/all": "pages/video/all.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js"
 }
