@@ -44,6 +44,7 @@ const Article = ({
 
       <Zoom left cascade>
         <h1 className="Title">{article.title}</h1>
+        <h3 className="Title"><Moment format="MMM Do YYYY">{article.published_at}</Moment></h3>
       </Zoom>
 
       <hr></hr>
@@ -75,7 +76,6 @@ const Article = ({
                   Author: {article.writer.name}
                 </p>
                 <p className="uk-text-meta uk-margin-remove-top">
-                  <Moment format="MMM Do YYYY">{article.published_at}</Moment>
                 </p>
               </div>
             </div>
