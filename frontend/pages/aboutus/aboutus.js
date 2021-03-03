@@ -31,8 +31,10 @@ const aboutus = ({
     <div>
       <Layout categories={categories} vidcat={vidcat}>
             <div>
+            <Zoom left cascade duration={550}>
                 <h1 className="Title">Meet the Team</h1>
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTW_uFkHTqJuPGjK3605w9FFIxCeejW4pIh-RD4KLNSRgdVo7KQyhyzn8upmtYSAld04x8aQV-nBuu5/embed?start=true&amp;loop=true&amp;delayms=15000" width="1440" height="839" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+            </Zoom>
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTW_uFkHTqJuPGjK3605w9FFIxCeejW4pIh-RD4KLNSRgdVo7KQyhyzn8upmtYSAld04x8aQV-nBuu5/embed?start=true&amp;loop=true&amp;delayms=15000" width="100%" height="600px" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
             </div>
       </Layout>
     </div>

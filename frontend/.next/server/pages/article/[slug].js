@@ -770,7 +770,9 @@ var FooterBar_jsx = external_react_default.a.createElement;
 const FooterPage = ({
   landingpage
 }) => {
-  return FooterBar_jsx("footer", null, FooterBar_jsx("p", null, "\xA9 Arnav Dadarya"));
+  return FooterBar_jsx("footer", null, FooterBar_jsx("p", {
+    className: "FooterBar"
+  }, "\xA9 BlackBoard Basics 2021 & Arnav Dadarya"));
 };
 
 /* harmony default export */ var FooterBar = (FooterPage);
@@ -1174,7 +1176,7 @@ const Articals = ({
       src: catagory.Icon.formats.thumbnail.url
     }), __jsx("h4", null, catagory.name));
   })))), __jsx("div", {
-    className: "OurPurpose"
+    className: ""
   }, __jsx("div", null, __jsx(react_reveal_Zoom__WEBPACK_IMPORTED_MODULE_14___default.a, {
     left: true
   }, __jsx("div", {
@@ -1265,7 +1267,7 @@ const Card = ({
     className: "uk-card-body"
   }, __jsx("p", {
     id: "category",
-    className: "uk-text-uppercase"
+    className: "uk-text-upperyEcase"
   }, article.category.name), __jsx("p", {
     id: "title",
     className: "uk-text-large"

@@ -109,7 +109,7 @@ const Articals = ({
             </Zoom>
           </div>
 
-          <div className="OurPurpose">
+          <div className="">
             <div>
               <Zoom left>
                 <div className="aboutUsCard">

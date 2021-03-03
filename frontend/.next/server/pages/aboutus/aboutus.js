@@ -770,7 +770,9 @@ var FooterBar_jsx = external_react_default.a.createElement;
 const FooterPage = ({
   landingpage
 }) => {
-  return FooterBar_jsx("footer", null, FooterBar_jsx("p", null, "\xA9 Arnav Dadarya"));
+  return FooterBar_jsx("footer", null, FooterBar_jsx("p", {
+    className: "FooterBar"
+  }, "\xA9 BlackBoard Basics 2021 & Arnav Dadarya"));
 };
 
 /* harmony default export */ var FooterBar = (FooterPage);
@@ -1015,7 +1017,7 @@ const Articals = ({
       src: catagory.Icon.formats.thumbnail.url
     }), __jsx("h4", null, catagory.name));
   })))), __jsx("div", {
-    className: "OurPurpose"
+    className: ""
   }, __jsx("div", null, __jsx(react_reveal_Zoom__WEBPACK_IMPORTED_MODULE_14___default.a, {
     left: true
   }, __jsx("div", {
@@ -1106,7 +1108,7 @@ const Card = ({
     className: "uk-card-body"
   }, __jsx("p", {
     id: "category",
-    className: "uk-text-uppercase"
+    className: "uk-text-upperyEcase"
   }, article.category.name), __jsx("p", {
     id: "title",
     className: "uk-text-large"
@@ -3146,6 +3148,7 @@ var external_react_typing_animation_ = __webpack_require__("xBGc");
 
 // EXTERNAL MODULE: external "react-reveal/Zoom"
 var Zoom_ = __webpack_require__("wtZI");
+var Zoom_default = /*#__PURE__*/__webpack_require__.n(Zoom_);
 
 // EXTERNAL MODULE: external "mdbreact"
 var external_mdbreact_ = __webpack_require__("Y52P");
@@ -3298,12 +3301,16 @@ const aboutus = ({
   return aboutus_jsx("div", null, aboutus_jsx(layout["a" /* default */], {
     categories: categories,
     vidcat: vidcat
-  }, aboutus_jsx("div", null, aboutus_jsx("h1", {
+  }, aboutus_jsx("div", null, aboutus_jsx(Zoom_default.a, {
+    left: true,
+    cascade: true,
+    duration: 550
+  }, aboutus_jsx("h1", {
     className: "Title"
-  }, "Meet the Team"), aboutus_jsx("iframe", {
+  }, "Meet the Team")), aboutus_jsx("iframe", {
     src: "https://docs.google.com/presentation/d/e/2PACX-1vTW_uFkHTqJuPGjK3605w9FFIxCeejW4pIh-RD4KLNSRgdVo7KQyhyzn8upmtYSAld04x8aQV-nBuu5/embed?start=true&loop=true&delayms=15000",
-    width: "1440",
-    height: "839",
+    width: "100%",
+    height: "600px",
     frameborder: "0",
     allowfullscreen: "allowfullscreen"
   }))));

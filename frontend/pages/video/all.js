@@ -19,7 +19,9 @@ const AllVids = ({
         {/* <Seo seo={homepage.seo} /> */}
         <div className="uk-section">
           <div className="uk-container uk-container-large">
+          <Zoom left cascade duration={550}>
             <h1 className="Title">{"All Videos"}</h1>
+          </Zoom>
             <hr></hr>
             <Zoom left>
               <Vidoes vidoes={videos}></Vidoes>

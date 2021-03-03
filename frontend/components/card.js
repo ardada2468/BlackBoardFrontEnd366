@@ -14,7 +14,7 @@ const Card = ({ article }) => {
               <Image image={article.image} />
             </div>
             <div className="uk-card-body">
-              <p id="category" className="uk-text-uppercase">
+              <p id="category" className="uk-text-upperyEcase">
                 {article.category.name}
               </p>
               <p id="title" className="uk-text-large">

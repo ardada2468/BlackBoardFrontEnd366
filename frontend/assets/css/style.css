@@ -60,7 +60,7 @@ img{
   border-radius: 50px;
   margin: 2%;
   transform-origin: bottom;  
-  box-shadow: 0 10px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 2.5px 2.5px rgba(0,0,0,0.15);
 
 
 }
@@ -327,7 +327,7 @@ em{
   border-radius: 4px;
   height: 85vh;
   width: 80vw;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -387,7 +387,7 @@ img.birthday {
   background: rgb(96, 149, 255);
 }
 .aboutUsCard{
-  background-color:rgb(86, 65, 170);
+  /* background-color:rgb(86, 65, 170); */
   width: 85%;
   margin-left: auto;
   margin-right: auto;
@@ -395,7 +395,7 @@ img.birthday {
   border-radius: 50px;
   padding: 2%;
   margin-bottom: 1.25%;
-  color:#cecece;
+  /* color:#ffffff; */
 }
 
 .MasterContainer{
@@ -450,6 +450,7 @@ text-align: center;
   align-content: center;
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 .SubjectsRight{
@@ -459,9 +460,11 @@ text-align: center;
   margin-right: auto;
   display:  inline-block;
   border-radius: 50px;
-  padding: 1.5%;
-  margin: .5%;
-  background-color:rgb(95, 95, 199);
+  padding: 2%;
+  margin: 5%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  /* background-color:rgb(95, 95, 199); */
   text-align: center;
 
 }
@@ -472,10 +475,11 @@ text-align: center;
   margin-right: auto;
   display: inline-block;
   border-radius: 50px;
-  padding: 1.5%;
-  margin: .5%;
-  margin-bottom: 1.25%;
-  background-color:rgb(95, 95, 199);
+  padding: 2%;
+  margin:5%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  /* background-color:rgb(95, 95, 199); */
   text-align: center;
 
   
@@ -492,7 +496,7 @@ text-align: center;
 
 .SubjectTitle{
   text-align: center;
-  background-color: rgb(96, 96, 199);
+  /* background-color: rgb(96, 96, 199); */
   border-radius: 50px;
   padding: 1%;
   width: auto;
@@ -508,7 +512,7 @@ text-align: center;
   border-radius: 4px;
   height: auto;
   width: 85%;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
   text-align: center;
   display: flexbox;
   justify-content: center;
@@ -549,10 +553,15 @@ text-align: center;
 
 .AboutUsCard:active{
 
-  background-color: #cecece;
+  /* background-color: #cecece; */
   box-shadow: none;
   transition: box-shadow 0.6s ease-in-out;
   transition: background-color  0.3s ease-in-out;
 
 }
 
+.FooterBar{
+  text-align: center;
+
+  background-blend-mode: darken;
+}

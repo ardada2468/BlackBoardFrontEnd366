@@ -770,7 +770,9 @@ var FooterBar_jsx = external_react_default.a.createElement;
 const FooterPage = ({
   landingpage
 }) => {
-  return FooterBar_jsx("footer", null, FooterBar_jsx("p", null, "\xA9 Arnav Dadarya"));
+  return FooterBar_jsx("footer", null, FooterBar_jsx("p", {
+    className: "FooterBar"
+  }, "\xA9 BlackBoard Basics 2021 & Arnav Dadarya"));
 };
 
 /* harmony default export */ var FooterBar = (FooterPage);
@@ -915,24 +917,45 @@ const style = {
 const VidCard = ({
   video
 }) => {
-  return __jsx(external_react_reveal_["Slide"], {
-    left: true
-  }, __jsx(link_default.a, {
-    as: `/video/${video.slug}`,
-    href: "/video/[id]"
-  }, __jsx("a", {
-    className: "uk-link-reset"
-  }, __jsx("div", {
-    class: "uk-card-media-left uk-cover-container "
-  }, __jsx(components_image["a" /* default */], {
-    style: style,
-    image: video.VideoThumbnail
-  }), __jsx("div", {
-    class: "uk-card-body RightAlign ",
-    id: "card-body-h"
-  }, __jsx("h3", {
-    class: "uk-card-title"
-  }, video.Title), __jsx("p", null, video.Description))), __jsx("div", null))));
+  return (// <Slide left>
+    //   <Link as={`/video/${video.slug}`} href="/video/[id]">
+    //     <a className="uk-link-reset">
+    //       <div class="uk-card-media-left uk-cover-container ">
+    //         <Image style={style} image={video.VideoThumbnail} />
+    //         {/* <canvas width="600" height="300"></canvas> */}
+    //         <div class="uk-card-body RightAlign " id="card-body-h">
+    //           <h3 class="uk-card-title">{video.Title}</h3>
+    //           <p>{video.Description}</p>
+    //         </div>
+    //       </div>
+    //       <div></div>
+    //     </a>
+    //   </Link>
+    // </Slide>
+    __jsx(external_react_reveal_["Zoom"], {
+      left: true,
+      duration: 750
+    }, __jsx(link_default.a, {
+      as: `/video/${video.slug}`,
+      href: "/video/[id]"
+    }, __jsx("a", {
+      className: "uk-link-reset cardLink"
+    }, __jsx("div", {
+      className: "Card"
+    }, __jsx("div", {
+      className: "uk-card-media-top"
+    }, __jsx(components_image["a" /* default */], {
+      image: video.VideoThumbnail
+    })), __jsx("div", {
+      className: "uk-card-body"
+    }, __jsx("p", {
+      id: "category",
+      className: "uk-text-upperyEcase"
+    }, video.vid_catagory.Name), __jsx("p", {
+      id: "title",
+      className: "uk-text-large"
+    }, video.Title))))))
+  );
 };
 
 /* harmony default export */ var VideosCard = (VidCard);
@@ -947,16 +970,42 @@ var Videos_jsx = external_react_default.a.createElement;
 const Vidoes = ({
   vidoes
 }) => {
-  return Videos_jsx("div", null, vidoes.map((video, i) => {
-    return Videos_jsx("div", {
-      class: "uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin Card",
-      "uk-grid": true
-    }, Videos_jsx(VideosCard, {
-      video: video,
-      key: `${video.slug}`
-    }));
-  })) // </div>
-  ;
+  const leftArticlesCount = Math.ceil(vidoes.length / 5);
+  const leftArticles = vidoes.slice(0, leftArticlesCount);
+  const rightArticles = vidoes.slice(leftArticlesCount, vidoes.length);
+  return (// <div>
+    //   {vidoes.map((video, i) => {
+    //     return (
+    //       <div
+    //         class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin Card"
+    //         uk-grid
+    //       >
+    //         <VidCard video={video} key={`${video.slug}`} /> 
+    //       </div>
+    //     );
+    //   })}
+    // </div>
+    Videos_jsx("div", null, Videos_jsx("div", {
+      className: "uk-child-width-1-2@s",
+      "data-uk-grid": "true"
+    }, Videos_jsx("div", null, leftArticles.map((article, i) => {
+      return Videos_jsx(VideosCard, {
+        video: article,
+        key: `${article.slug}`,
+        className: "Title"
+      });
+    })), Videos_jsx("div", null, Videos_jsx("div", {
+      className: "uk-child-width-1-2@m uk-grid-match",
+      "data-uk-grid": true
+    }, rightArticles.map((article, i) => {
+      return Videos_jsx(VideosCard, {
+        video: article,
+        key: `${article.slug}`,
+        st: true,
+        yle: ""
+      });
+    })))))
+  );
 };
 
 /* harmony default export */ var Videos = __webpack_exports__["a"] = (Vidoes);
@@ -1001,9 +1050,13 @@ const AllVids = ({
     className: "uk-section"
   }, __jsx("div", {
     className: "uk-container uk-container-large"
+  }, __jsx(react_reveal__WEBPACK_IMPORTED_MODULE_5__["Zoom"], {
+    left: true,
+    cascade: true,
+    duration: 550
   }, __jsx("h1", {
     className: "Title"
-  }, "All Videos"), __jsx("hr", null), __jsx(react_reveal__WEBPACK_IMPORTED_MODULE_5__["Zoom"], {
+  }, "All Videos")), __jsx("hr", null), __jsx(react_reveal__WEBPACK_IMPORTED_MODULE_5__["Zoom"], {
     left: true
   }, __jsx(_components_Videos__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], {
     vidoes: videos
@@ -1173,7 +1226,7 @@ const Articals = ({
       src: catagory.Icon.formats.thumbnail.url
     }), __jsx("h4", null, catagory.name));
   })))), __jsx("div", {
-    className: "OurPurpose"
+    className: ""
   }, __jsx("div", null, __jsx(react_reveal_Zoom__WEBPACK_IMPORTED_MODULE_14___default.a, {
     left: true
   }, __jsx("div", {
@@ -1264,7 +1317,7 @@ const Card = ({
     className: "uk-card-body"
   }, __jsx("p", {
     id: "category",
-    className: "uk-text-uppercase"
+    className: "uk-text-upperyEcase"
   }, article.category.name), __jsx("p", {
     id: "title",
     className: "uk-text-large"

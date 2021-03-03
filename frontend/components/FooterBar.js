@@ -3,8 +3,8 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 const FooterPage = ({ landingpage }) => {
   return (
-    <footer>
-      <p>© Arnav Dadarya</p>
+    <footer >
+      <p className="FooterBar">© BlackBoard Basics 2021 & Arnav Dadarya</p>
     </footer>
   );
 };
